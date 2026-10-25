@@ -1,0 +1,5 @@
+D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/MusicPlayerQt6.dir
+D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/edit_cache.dir
+D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/rebuild_cache.dir
+D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/MusicPlayerQt6_autogen_timestamp_deps.dir
+D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/MusicPlayerQt6_autogen.dir

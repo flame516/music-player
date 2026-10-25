@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MusicPlayerQt6",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MusicPlayerQt6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MusicPlayerQt6-Debug-3b68c2dd19da2ad75066.json",
+					"name" : "MusicPlayerQt6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MusicPlayerQt6_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MusicPlayerQt6_autogen-Debug-5ee3212dafd15424285b.json",
+					"name" : "MusicPlayerQt6_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MusicPlayerQt6_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MusicPlayerQt6_autogen_timestamp_deps-Debug-6d4074366c02ec216b1d.json",
+					"name" : "MusicPlayerQt6_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug",
+		"source" : "D:/QTproject/musicplayer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

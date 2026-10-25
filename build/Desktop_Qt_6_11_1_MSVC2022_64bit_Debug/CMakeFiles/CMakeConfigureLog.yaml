@@ -1,0 +1,374 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/Program Files/VS2026/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36248 for x64
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.51.36248.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        注意: 包含文件:  D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "注意: 包含文件:  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-y1ayo2"
+      binary: "D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-y1ayo2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-y1ayo2'
+        
+        Run Build Command(s): C:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_931f3\\fast
+        jom: parallel job execution disabled for Makefile
+        	C:\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_931f3.dir\\build.make /nologo -L CMakeFiles\\cmTC_931f3.dir\\build
+        Building CXX object CMakeFiles/cmTC_931f3.dir/CMakeCXXCompilerABI.cpp.obj
+        	C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_931f3.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-y1ayo2 --filter-prefix="扅鶓??: ???畱??劘?  " -- "D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\cl.exe" @C:\\Users\\26250\\AppData\\Local\\Temp\\CMakeCXXCompilerABI.cpp.obj.9548.0.jom
+        CMakeCXXCompilerABI.cpp
+        娉ㄦ剰: 鍖呭惈鏂囦欢:  C:\\Qt\\Tools\\CMake_64\\share\\cmake-3.30\\Modules\\CMakeCompilerABI.h
+        Linking CXX executable cmTC_931f3.exe
+        	C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_931f3.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests -- "D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\link.exe" /nologo @CMakeFiles\\cmTC_931f3.dir\\objects1.rsp @C:\\Users\\26250\\AppData\\Local\\Temp\\cmTC_931f3.exe.9548.593.jom
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_931f3.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_931f3.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_931f3.dir/manifest.res CMakeFiles\\cmTC_931f3.dir/manifest.rc
+        LINK Pass 1:
+        D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_931f3.dir\\objects1.rsp /out:cmTC_931f3.exe /implib:cmTC_931f3.lib /pdb:D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-y1ayo2\\cmTC_931f3.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_931f3.dir/intermediate.manifest CMakeFiles\\cmTC_931f3.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_931f3.dir/intermediate.manifest /out:CMakeFiles\\cmTC_931f3.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_931f3.dir/manifest.res CMakeFiles\\cmTC_931f3.dir/manifest.rc
+        FINAL LINK:
+        D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_931f3.dir\\objects1.rsp /out:cmTC_931f3.exe /implib:cmTC_931f3.lib /pdb:D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-y1ayo2\\cmTC_931f3.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_931f3.dir/intermediate.manifest CMakeFiles\\cmTC_931f3.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/Program Files/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Program Files/VS2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36248.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:283 (find_package)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:192 (include)"
+      - "build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:254 (find_package)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:20 (find_dependency)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:235 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    directories:
+      source: "D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-g82owf"
+      binary: "D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-g82owf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6;C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-g82owf'
+        
+        Run Build Command(s): C:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_1413a\\fast
+        jom: parallel job execution disabled for Makefile
+        	C:\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_1413a.dir\\build.make /nologo -L CMakeFiles\\cmTC_1413a.dir\\build
+        Building CXX object CMakeFiles/cmTC_1413a.dir/src.cxx.obj
+        	C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_1413a.dir\\src.cxx.obj.d --working-dir=D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-g82owf --filter-prefix="扅鶓??: ???畱??劘?  " -- "D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\cl.exe" @C:\\Users\\26250\\AppData\\Local\\Temp\\src.cxx.obj.24816.0.jom
+        src.cxx
+        D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-g82owf\\src.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory
+        jom: D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-g82owf\\CMakeFiles\\cmTC_1413a.dir\\build.make [CMakeFiles\\cmTC_1413a.dir\\src.cxx.obj] Error 2
+        jom: D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-g82owf\\Makefile [cmTC_1413a\\fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:283 (find_package)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:192 (include)"
+      - "build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:254 (find_package)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:20 (find_dependency)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:235 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    directories:
+      source: "D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-0xrvs3"
+      binary: "D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-0xrvs3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6;C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-0xrvs3'
+        
+        Run Build Command(s): C:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_7ba0e\\fast
+        jom: parallel job execution disabled for Makefile
+        	C:\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_7ba0e.dir\\build.make /nologo -L CMakeFiles\\cmTC_7ba0e.dir\\build
+        Building CXX object CMakeFiles/cmTC_7ba0e.dir/CheckFunctionExists.cxx.obj
+        	C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_7ba0e.dir\\CheckFunctionExists.cxx.obj.d --working-dir=D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-0xrvs3 --filter-prefix="扅鶓??: ???畱??劘?  " -- "D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\cl.exe" @C:\\Users\\26250\\AppData\\Local\\Temp\\CheckFunctionExists.cxx.obj.25008.0.jom
+        CheckFunctionExists.cxx
+        Linking CXX executable cmTC_7ba0e.exe
+        	C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_7ba0e.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests -- "D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\link.exe" /nologo @CMakeFiles\\cmTC_7ba0e.dir\\objects1.rsp @C:\\Users\\26250\\AppData\\Local\\Temp\\cmTC_7ba0e.exe.25008.94.jom
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_7ba0e.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_7ba0e.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_7ba0e.dir/manifest.res CMakeFiles\\cmTC_7ba0e.dir/manifest.rc
+        LINK Pass 1:
+        D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_7ba0e.dir\\objects1.rsp /out:cmTC_7ba0e.exe /implib:cmTC_7ba0e.lib /pdb:D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-0xrvs3\\cmTC_7ba0e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_7ba0e.dir/intermediate.manifest CMakeFiles\\cmTC_7ba0e.dir/manifest.res
+        LINK Pass 1: command "D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_7ba0e.dir\\objects1.rsp /out:cmTC_7ba0e.exe /implib:cmTC_7ba0e.lib /pdb:D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-0xrvs3\\cmTC_7ba0e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_7ba0e.dir/intermediate.manifest CMakeFiles\\cmTC_7ba0e.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib”
+        jom: D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-0xrvs3\\CMakeFiles\\cmTC_7ba0e.dir\\build.make [cmTC_7ba0e.exe] Error 2
+        jom: D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-0xrvs3\\Makefile [cmTC_7ba0e\\fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:283 (find_package)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:192 (include)"
+      - "build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:254 (find_package)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:20 (find_dependency)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:235 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    directories:
+      source: "D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-zsp37n"
+      binary: "D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-zsp37n"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6;C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-zsp37n'
+        
+        Run Build Command(s): C:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_c10c6\\fast
+        jom: parallel job execution disabled for Makefile
+        	C:\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_c10c6.dir\\build.make /nologo -L CMakeFiles\\cmTC_c10c6.dir\\build
+        Building CXX object CMakeFiles/cmTC_c10c6.dir/CheckFunctionExists.cxx.obj
+        	C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_c10c6.dir\\CheckFunctionExists.cxx.obj.d --working-dir=D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-zsp37n --filter-prefix="扅鶓??: ???畱??劘?  " -- "D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\cl.exe" @C:\\Users\\26250\\AppData\\Local\\Temp\\CheckFunctionExists.cxx.obj.33448.0.jom
+        CheckFunctionExists.cxx
+        Linking CXX executable cmTC_c10c6.exe
+        	C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_c10c6.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests -- "D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\link.exe" /nologo @CMakeFiles\\cmTC_c10c6.dir\\objects1.rsp @C:\\Users\\26250\\AppData\\Local\\Temp\\cmTC_c10c6.exe.33448.78.jom
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_c10c6.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_c10c6.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_c10c6.dir/manifest.res CMakeFiles\\cmTC_c10c6.dir/manifest.rc
+        LINK Pass 1:
+        D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_c10c6.dir\\objects1.rsp /out:cmTC_c10c6.exe /implib:cmTC_c10c6.lib /pdb:D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-zsp37n\\cmTC_c10c6.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_c10c6.dir/intermediate.manifest CMakeFiles\\cmTC_c10c6.dir/manifest.res
+        LINK Pass 1: command "D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_c10c6.dir\\objects1.rsp /out:cmTC_c10c6.exe /implib:cmTC_c10c6.lib /pdb:D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-zsp37n\\cmTC_c10c6.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_c10c6.dir/intermediate.manifest CMakeFiles\\cmTC_c10c6.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib”
+        jom: D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-zsp37n\\CMakeFiles\\cmTC_c10c6.dir\\build.make [cmTC_c10c6.exe] Error 2
+        jom: D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-zsp37n\\Makefile [cmTC_c10c6\\fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:283 (find_package)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:42 (include)"
+      - "build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:254 (find_package)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:235 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-79bmzn"
+      binary: "D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-79bmzn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6;C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/QTproject/musicplayer/build/Desktop_Qt_6_11_1_MSVC2022_64bit_Debug/CMakeFiles/CMakeScratch/TryCompile-79bmzn'
+        
+        Run Build Command(s): C:/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_2c665\\fast
+        jom: parallel job execution disabled for Makefile
+        	C:\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_2c665.dir\\build.make /nologo -L CMakeFiles\\cmTC_2c665.dir\\build
+        Building CXX object CMakeFiles/cmTC_2c665.dir/src.cxx.obj
+        	C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_2c665.dir\\src.cxx.obj.d --working-dir=D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-79bmzn --filter-prefix="扅鶓??: ???畱??劘?  " -- "D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\cl.exe" @C:\\Users\\26250\\AppData\\Local\\Temp\\src.cxx.obj.18536.0.jom
+        src.cxx
+        娉ㄦ剰: 鍖呭惈鏂囦欢:  D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\atomic
+        娉ㄦ剰: 鍖呭惈鏂囦欢:   D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\yvals.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\yvals_core.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:     D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\vcruntime.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:      D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\sal.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:       D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\concurrencysal.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:      D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\vadefs.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:     D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\xkeycheck.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\__msvc_doom_core.hpp
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\crtdbg.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:     C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:     D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\vcruntime_new_debug.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:      D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\vcruntime_new.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\crtdefs.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\use_ansi.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:   D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\cstddef
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\stddef.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\xtr1common
+        娉ㄦ剰: 鍖呭惈鏂囦欢:   D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\cstdint
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\stdint.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:   D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\cstring
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\string.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:     C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt_memory.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:      C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt_memcpy_s.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:       C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\errno.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:       D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\vcruntime_string.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:     C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt_wstring.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:   D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\xatomic.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\type_traits
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\intrin0.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:     D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\intrin0.inl.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:   D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\xthreads.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\__msvc_threads_core.hpp
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\climits
+        娉ㄦ剰: 鍖呭惈鏂囦欢:     D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\limits.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\xtimec.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:     D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\include\\ctime
+        娉ㄦ剰: 鍖呭惈鏂囦欢:      C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\time.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:       C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt_wtime.h
+        Linking CXX executable cmTC_2c665.exe
+        	C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_2c665.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests -- "D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\link.exe" /nologo @CMakeFiles\\cmTC_2c665.dir\\objects1.rsp @C:\\Users\\26250\\AppData\\Local\\Temp\\cmTC_2c665.exe.18536.453.jom
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_2c665.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_2c665.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_2c665.dir/manifest.res CMakeFiles\\cmTC_2c665.dir/manifest.rc
+        LINK Pass 1:
+        D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_2c665.dir\\objects1.rsp /out:cmTC_2c665.exe /implib:cmTC_2c665.lib /pdb:D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-79bmzn\\cmTC_2c665.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_2c665.dir/intermediate.manifest CMakeFiles\\cmTC_2c665.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_2c665.dir/intermediate.manifest /out:CMakeFiles\\cmTC_2c665.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_2c665.dir/manifest.res CMakeFiles\\cmTC_2c665.dir/manifest.rc
+        FINAL LINK:
+        D:\\Program Files\\VS2026\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_2c665.dir\\objects1.rsp /out:cmTC_2c665.exe /implib:cmTC_2c665.lib /pdb:D:\\QTproject\\musicplayer\\build\\Desktop_Qt_6_11_1_MSVC2022_64bit_Debug\\CMakeFiles\\CMakeScratch\\TryCompile-79bmzn\\cmTC_2c665.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_2c665.dir/intermediate.manifest CMakeFiles\\cmTC_2c665.dir/manifest.res
+        
+      exitCode: 0
+...
